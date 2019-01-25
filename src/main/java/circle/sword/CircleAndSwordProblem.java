@@ -10,7 +10,7 @@ public class CircleAndSwordProblem {
 	 * @param num
 	 * @return int
 	 */
-	static int highestPowerof2(int num) 
+	public int highestPowerof2(int num) 
 	   { 
 	     int square = 0; 
 	     for (int i =num; i>0;i--) 
@@ -27,13 +27,14 @@ public class CircleAndSwordProblem {
 
 	public static void main(String[] args) {
 		
-		System.out.println("The total nummber of person standing in a round table is");
+		CircleAndSwordProblem c=new CircleAndSwordProblem();
 		
+		System.out.println("The total nummber of person standing in a round table is");
 		// Variable should be enter for the no. of people in a circle
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt(); 
 		
-		int square = (highestPowerof2(num)); 
+		int square = (c.highestPowerof2(num)); 
 		
 		// (Total no. of people) - (nearest smaller number for power of 2)
 		int rem = num - square; 

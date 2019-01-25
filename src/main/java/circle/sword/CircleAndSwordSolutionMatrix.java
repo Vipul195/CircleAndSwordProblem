@@ -6,7 +6,7 @@ import java.util.List;
 public class CircleAndSwordSolutionMatrix {
 	
 	/**
-	 * Process the itterations and return the last man standing
+	 * Process the iterations and return the last man standing
 	 * @param numberOfMen
 	 * @return
 	 */
